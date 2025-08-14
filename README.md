@@ -41,7 +41,7 @@ Official implementation of:
 
 ## 🚀 Train
 | Step        | Description                                      | File                                           |
-|-------------|--------------------------------------------------|-----------------------------------------------|
+|-------------|--------------------------------------------------|------------------------------------------------|
 | First Step  | Fault Diagnostics using Machine Learning         | `first_run_fault_diagnosis.ipynb`              |
 | Second Step | Time-Series Prediction using Transformer         | `second_run_time_series_prediction.ipynb`      |
 | Last Step   | Fault Prognostics (includes Step 1 and Step 2)   | `run.ipynb`                                    |
