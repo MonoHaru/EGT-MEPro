@@ -48,4 +48,21 @@ Official implementation of:
 
 
 **Note**
+
 If you wish to perform fault diagnostics only at the current time point, you need to complete only the **First Step**. To predict time-series data for conducting fault diagnosis at a future time point, proceed with the **Second Step**. For fault prognostics at a future time point, carry out the **Last Step**, which includes both the **First Step** and the **Second Step**.
+
+
+## 📜 License
+The code in this repository is released under the MIT License.
+
+
+## 📖 BibTex
+```
+@article{김태경2024배기가스,
+  title={배기가스 온도 데이터를 활용한 선박 메인엔진 결함 진단 및 예지},
+  author={김태경 and 김세하 and 전창재},
+  journal={대한산업공학회 추계학술대회 논문집},
+  pages={2035--2039},
+  year={2024}
+}
+```
