@@ -40,17 +40,12 @@ Official implementation of:
 
 
 ## 🚀 Train
-- First Step (Fault Diagnositics using Machine Learning)
+| Step        | Description                                      | File                                           |
+|-------------|--------------------------------------------------|-----------------------------------------------|
+| First Step  | Fault Diagnostics using Machine Learning         | `first_run_fault_diagnosis.ipynb`              |
+| Second Step | Time-Series Prediction using Transformer         | `second_run_time_series_prediction.ipynb`      |
+| Last Step   | Fault Prognostics (includes Step 1 and Step 2)   | `run.ipynb`                                    |
 
-`first_run_fault_diagnosis.ipynb`
-
-- Second Step (Time-Series Prediction using Transformer)
-
-`second_run_time_series_prediction.ipynb`
-
-- Last Step (run.ipynb)
-
-`run.ipynb`
 
 **Note**
 If you wish to perform fault diagnostics only at the current time point, you need to complete only the **First Step**. To predict time-series data for conducting fault diagnosis at a future time point, proceed with the **Second Step**. For fault prognostics at a future time point, carry out the **Last Step**, which includes both the **First Step** and the **Second Step**.
