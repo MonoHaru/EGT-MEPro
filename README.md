@@ -12,7 +12,7 @@ Official implementation of:
 ## 🧑‍🤝‍🧑 Authors
 
 **First Author**
-- [Tae-Gyeong Kim](https://github.com/MonoHaru) Department of Artificial Intelligence, Sejong University, Seoul 05006, Republic of Korea, [ktk23114418@sju.ac.kr](mailto:ktk23114418@sju.ac.kr)
+- [Tae-Gyeong Kim](https://github.com/MonoHaru), Department of Artificial Intelligence, Sejong University, Seoul 05006, Republic of Korea, [ktk23114418@sju.ac.kr](mailto:ktk23114418@sju.ac.kr)
 
 **Second Author**
 - [Se-Ha Kim](https://github.com/), Department of Artificial Intelligence, Sejong University, Seoul 05006, Republic of Korea, [23114417@sju.ac.kr](mailto:23114417@sju.ac.kr)
