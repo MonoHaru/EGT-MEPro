@@ -1,8 +1,8 @@
-# Marine Engine Fault Diagnostics and Prognostics using Exhaus Gas Temperature data
+# Marine Engine Fault Diagnostics and Prognostics using Exhaust Gas Temperature data
 
 Official implementation of:
 
-📄 [Marine Engine Fault Diagnostics and Prognostics using Exhaus Gas Temperature data](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11964687)
+📄 [Marine Engine Fault Diagnostics and Prognostics using Exhaust Gas Temperature data](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11964687)
 
 📰 KIIE (Korean Institute of Industrial Engineers), 2024
 
@@ -42,9 +42,9 @@ Official implementation of:
 ## 🚀 Train
 | Step        | Description                                      | File                                           |
 |-------------|--------------------------------------------------|------------------------------------------------|
-| First Step  | Fault Diagnostics using Machine Learning         | `first_run_fault_diagnosis.ipynb`              |
-| Second Step | Time-Series Prediction using Transformer         | `second_run_time_series_prediction.ipynb`      |
-| Last Step   | Fault Prognostics (includes Step 1 and Step 2)   | `run.ipynb`                                    |
+| First Step  | Fault Diagnostics using Machine Learning         | `first_run.ipynb`              |
+| Second Step | Time-Series Prediction using Transformer         | `second_run.ipynb`      |
+| Last Step   | Fault Prognostics (includes Step 1 and Step 2)   | `last_run.ipynb`                                    |
 
 
 **Note**
