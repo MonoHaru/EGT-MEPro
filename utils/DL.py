@@ -276,6 +276,38 @@ def plot_and_loss(model, data_source, criterion,input_window, output_window, sca
     
     return truth, test_result, result_to_ML, total_loss / i
 
+def plot_and_loss2(model, data_source, criterion,input_window, output_window, scaler_DL):
+    model.eval() 
+    total_loss = 0.
+    test_result = torch.Tensor(0)    
+    truth = torch.Tensor(0)
+    result_to_ML = []
+    with torch.no_grad():
+        for i in tqdm(range(len(data_source)-1)):
+            data, target = get_batch(data_source, i,1, input_window)
+            # look like the model returns static values for the output window
+            output = model(data)
+            if calculate_loss_over_all_values:
+                total_loss += criterion(output, target).item()
+            else:
+                total_loss += criterion(output[-output_window:], target[-output_window:]).item()
+            
+            test_result = torch.cat((test_result, output[-1].view(-1).cpu()), 0) #todo: check this. -> looks good to me
+            truth = torch.cat((truth, target[-1].view(-1).cpu()), 0)
+            result_to_ML.append(output[-output_window:].view(-1).cpu().detach().numpy())
+            
+    test_result = scaler_DL.inverse_transform(test_result.reshape(-1,1)).reshape(-1)
+    truth = scaler_DL.inverse_transform(truth.reshape(-1,1)).reshape(-1)
+    
+    plt.plot(test_result,label = 'Prediction')
+    plt.plot(truth,label = 'Truth')
+    plt.grid(True, which='both')
+    plt.legend()
+    plt.show()
+    plt.close()
+    
+    return truth, test_result, result_to_ML, total_loss / i
+
 def evaluate(model, test_dataloader, device, criterion, output_window):
     model.eval()
     total_loss = 0.0

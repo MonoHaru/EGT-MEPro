@@ -7,8 +7,8 @@ import math
 def trend(time, slope = 0):
     return time * slope
 
-def time_series_dataframe_ML():
-    path_temp_gps = './temp_add_gps/'
+def time_series_dataframe(path_temp_gps):
+
     list_temp_gps = os.listdir(path_temp_gps)
 
     m1 = pd.read_csv(os.path.join(path_temp_gps + list_temp_gps[0]))
@@ -53,8 +53,8 @@ def time_series_dataframe_ML():
     
     return df_temp_all, temp_TIME, temp_label
 
-def make_dataframe(window_size, stride):
-    path_temp_gps = './temp_add_gps/'
+def make_dataframe(path_temp_gps, window_size, stride):
+    
     list_temp_gps = os.listdir(path_temp_gps)
 
     A = pd.read_csv(os.path.join(path_temp_gps + list_temp_gps[0]))
