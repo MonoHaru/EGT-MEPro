@@ -6,7 +6,7 @@ Official implementation of:
 
 📰 KIIE (Korean Institute of Industrial Engineers), 2024
 
-[\[PDF\]](src\DBPIA-NURIMEDIA.pdf) [\[POSTER\]](src\poster.pdf)
+[\[PDF\]](src/DBPIA-NURIMEDIA.pdf) [\[POSTER\]](src/poster.pdf)
 
 
 ## 🧑‍🤝‍🧑 Authors
