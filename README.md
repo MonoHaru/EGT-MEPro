@@ -62,7 +62,7 @@ If you wish to perform fault diagnostics only at the current time point, you nee
 | LGBM          | 90.984% |
 | Random Forest | 92.383% |
 
----
+⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
 
 #### Comparative fault diagnosis results using Random Forest under seven window-size/stride combinations
 | Window size | Stride | Average Accuracy |
