@@ -62,8 +62,6 @@ If you wish to perform fault diagnostics only at the current time point, you nee
 | LGBM          | 90.984% |
 | Random Forest | 92.383% |
 
-⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
-
 #### Comparative fault diagnosis results using Random Forest under seven window-size/stride combinations
 | Window size | Stride | Average Accuracy |
 |:---:|:--:|:-------:|
@@ -76,7 +74,7 @@ If you wish to perform fault diagnostics only at the current time point, you nee
 | 10  | 3  | 90.395% |
 
 
-**Time-series forecasting results using a Transformer-based model across five window-size settings
+#### Time-series forecasting results using a Transformer-based model across five window-size settings
 | Window size | RMSE ↓ | MAE ↓ |
 |:---:|:------:|:------:|
 | 120 | 12.563 | 12.377 |
@@ -86,7 +84,7 @@ If you wish to perform fault diagnostics only at the current time point, you nee
 | 240 | 10.233 | 10.085 |
 
 
-**Future-time fault diagnosis results using Random Forest based on predicted data
+#### Future-time fault diagnosis results using Random Forest based on predicted data
 | Model | Average Accuracy |
 |:-------------:|:-------:|
 | Random Forest | 76.160% |
