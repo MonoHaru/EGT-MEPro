@@ -52,25 +52,43 @@ Official implementation of:
 If you wish to perform fault diagnostics only at the current time point, you need to complete only the **First Step**. To predict time-series data for conducting fault diagnosis at a future time point, proceed with the **Second Step**. For fault prognostics at a future time point, carry out the **Last Step**, which includes both the **First Step** and the **Second Step**.
 
 ## 🎯 Results
-**Experimental Results of Machine Learning–Based Models for Fault Diagnosis**
-| Model | Average Accuracy |
-|:---:|:---:|
-| SVM | 81.720% |
-| ANN | 82.796% |
-| K-Neighbors | 87.869% |
-| Decision Tree | 90.312% |
-| LGBM | 90.984% |
-| Random Forest | 92.383% |
+| Model          | Average Accuracy |
+|:--------------:|:----------------:|
+| SVM            | 81.720%          |
+| ANN            | 82.796%          |
+| K-Neighbors    | 87.869%          |
+| Decision Tree  | 90.312%          |
+| LGBM           | 90.984%          |
+| Random Forest  | 92.383%          |
+**Fault diagnosis results of different machine learning–based models at the current time point**
 
-**Experimental Results of Machine Learning–Based Models for Fault Diagnosis**
+
 | Window size | Stride | Average Accuracy |
-|:---:|:---:|
-| SVM | 81.720% |
-| ANN | 82.796% |
-| K-Neighbors | 87.869% |
-| Decision Tree | 90.312% |
-| LGBM | 90.984% |
-| Random Forest | 92.383% |
+|:-----------:|:------:|:----------------:|
+| 240         | 80     | 89.260%          |
+| 120         | 40     | 92.383%          |
+| 90          | 30     | 91.982%          |
+| 60          | 20     | 92.307%          |
+| 30          | 10     | 91.734%          |
+| 20          | 6      | 91.254%          |
+| 10          | 3      | 90.395%          |
+**Comparative fault diagnosis results using Random Forest under seven window-size/stride combinations**
+
+
+| Window size | RMSE ↓ | MAE ↓            |
+|:-----------:|:------:|:----------------:|
+| 120         | 12.563 | 12.377           |
+| 150         | 14.832 | 14.712           |
+| 180         | 11.877 | 11.745           |
+| 210         | 13.931 | 13.810           |
+| 240         | 10.233 | 10.085           |
+**Time-series forecasting results using a Transformer-based model across five window-size settings**
+
+
+| Model          | Average Accuracy |
+|:--------------:|:----------------:|
+| Random Forest  | 76.160%          |
+**Future-time fault diagnosis results using Random Forest based on predicted data**
 
 
 ## 📜 License
