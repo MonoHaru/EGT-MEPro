@@ -53,7 +53,7 @@ If you wish to perform fault diagnostics only at the current time point, you nee
 
 ## 🎯 Results
 #### Table 1. Fault diagnosis results of different machine learning–based models at the current time point
-| Model | Average Accuracy |
+| Model | Average Accuracy ↑ |
 |:-------------:|:-----------:|
 | SVM           | 81.720%     |
 | ANN           | 82.796%     |
@@ -63,31 +63,31 @@ If you wish to perform fault diagnostics only at the current time point, you nee
 | Random Forest | **92.383%** |
 
 #### Table 2. Comparative fault diagnosis results using Random Forest under seven window-size/stride combinations
-| Window size | Stride | Average Accuracy |
-|:---:|:--:|:-------:|
-| 240 | 80 | 89.260% |
-| 120 | 40 | 92.383% |
-| 90  | 30 | 91.982% |
-| 60  | 20 | 92.307% |
-| 30  | 10 | 91.734% |
-| 20  | 6  | 91.254% |
-| 10  | 3  | 90.395% |
+| Window size | Stride | Average Accuracy ↑ |
+|:---:|:--:|:-----------:|
+| 240 | 80 | 89.260%     |
+| 120 | 40 | **92.383%** |
+| 90  | 30 | 91.982%     |
+| 60  | 20 | 92.307%     |
+| 30  | 10 | 91.734%     |
+| 20  | 6  | 91.254%     |
+| 10  | 3  | 90.395%     |
 
 
 #### Table 3. Time-series forecasting results using a Transformer-based model across five window-size settings
 | Window size | RMSE ↓ | MAE ↓ |
-|:---:|:------:|:------:|
-| 120 | 12.563 | 12.377 |
-| 150 | 14.832 | 14.712 |
-| 180 | 11.877 | 11.745 |
-| 210 | 13.931 | 13.810 |
-| 240 | 10.233 | 10.085 |
+|:---:|:----------:|:----------:|
+| 120 | 12.563     | 12.377     |
+| 150 | 14.832     | 14.712     |
+| 180 | 11.877     | 11.745     |
+| 210 | 13.931     | 13.810     |
+| 240 | **10.233** | **10.085** |
 
 
 #### Table 4. Future-time fault diagnosis results using Random Forest based on predicted data
 | Model | Average Accuracy |
-|:-------------:|:-------:|
-| Random Forest | 78.160% |
+|:-------------:|:-----------:|
+| Random Forest | **78.160%** |
 
 
 ## 📜 License
