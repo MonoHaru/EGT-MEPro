@@ -52,7 +52,7 @@ Official implementation of:
 If you wish to perform fault diagnostics only at the current time point, you need to complete only the **First Step**. To predict time-series data for conducting fault diagnosis at a future time point, proceed with the **Second Step**. For fault prognostics at a future time point, carry out the **Last Step**, which includes both the **First Step** and the **Second Step**.
 
 ## 🎯 Results
-
+### Fault diagnosis results of different machine learning–based models at the current time point**
 | Model | Average Accuracy |
 |:-------------:|:-------:|
 | SVM           | 81.720% |
@@ -62,9 +62,8 @@ If you wish to perform fault diagnostics only at the current time point, you nee
 | LGBM          | 90.984% |
 | Random Forest | 92.383% |
 
-**Fault diagnosis results of different machine learning–based models at the current time point**
 
-
+**Comparative fault diagnosis results using Random Forest under seven window-size/stride combinations**
 | Window size | Stride | Average Accuracy |
 |:---:|:--:|:-------:|
 | 240 | 80 | 89.260% |
@@ -75,9 +74,8 @@ If you wish to perform fault diagnostics only at the current time point, you nee
 | 20  | 6  | 91.254% |
 | 10  | 3  | 90.395% |
 
-**Comparative fault diagnosis results using Random Forest under seven window-size/stride combinations**
 
-
+**Time-series forecasting results using a Transformer-based model across five window-size settings**
 | Window size | RMSE ↓ | MAE ↓ |
 |:---:|:------:|:------:|
 | 120 | 12.563 | 12.377 |
@@ -86,14 +84,11 @@ If you wish to perform fault diagnostics only at the current time point, you nee
 | 210 | 13.931 | 13.810 |
 | 240 | 10.233 | 10.085 |
 
-**Time-series forecasting results using a Transformer-based model across five window-size settings**
 
-
+**Future-time fault diagnosis results using Random Forest based on predicted data**
 | Model | Average Accuracy |
 |:-------------:|:-------:|
 | Random Forest | 76.160% |
-
-**Future-time fault diagnosis results using Random Forest based on predicted data**
 
 
 ## 📜 License
