@@ -52,15 +52,15 @@ Official implementation of:
 If you wish to perform fault diagnostics only at the current time point, you need to complete only the **First Step**. To predict time-series data for conducting fault diagnosis at a future time point, proceed with the **Second Step**. For fault prognostics at a future time point, carry out the **Last Step**, which includes both the **First Step** and the **Second Step**.
 
 ## 🎯 Results
-#### Table.1 Fault diagnosis results of different machine learning–based models at the current time point
+#### Table 1. Fault diagnosis results of different machine learning–based models at the current time point
 | Model | Average Accuracy |
-|:-------------:|:-------:|
-| SVM           | 81.720% |
-| ANN           | 82.796% |
-| K-Neighbors   | 87.869% |
-| Decision Tree | 90.312% |
-| LGBM          | 90.984% |
-| Random Forest | 92.383% |
+|:-------------:|:-----------:|
+| SVM           | 81.720%     |
+| ANN           | 82.796%     |
+| K-Neighbors   | 87.869%     |
+| Decision Tree | 90.312%     |
+| LGBM          | 90.984%     |
+| Random Forest | **92.383%** |
 
 #### Table 2. Comparative fault diagnosis results using Random Forest under seven window-size/stride combinations
 | Window size | Stride | Average Accuracy |
@@ -87,7 +87,7 @@ If you wish to perform fault diagnostics only at the current time point, you nee
 #### Table 4. Future-time fault diagnosis results using Random Forest based on predicted data
 | Model | Average Accuracy |
 |:-------------:|:-------:|
-| Random Forest | 76.160% |
+| Random Forest | 78.160% |
 
 
 ## 📜 License
