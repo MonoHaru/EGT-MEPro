@@ -51,6 +51,27 @@ Official implementation of:
 
 If you wish to perform fault diagnostics only at the current time point, you need to complete only the **First Step**. To predict time-series data for conducting fault diagnosis at a future time point, proceed with the **Second Step**. For fault prognostics at a future time point, carry out the **Last Step**, which includes both the **First Step** and the **Second Step**.
 
+## 🎯 Results
+**Experimental Results of Machine Learning–Based Models for Fault Diagnosis**
+| Model | Average Accuracy |
+|:---:|:---:|
+| SVM | 81.720% |
+| ANN | 82.796% |
+| K-Neighbors | 87.869% |
+| Decision Tree | 90.312% |
+| LGBM | 90.984% |
+| Random Forest | 92.383% |
+
+**Experimental Results of Machine Learning–Based Models for Fault Diagnosis**
+| Window size | Stride | Average Accuracy |
+|:---:|:---:|
+| SVM | 81.720% |
+| ANN | 82.796% |
+| K-Neighbors | 87.869% |
+| Decision Tree | 90.312% |
+| LGBM | 90.984% |
+| Random Forest | 92.383% |
+
 
 ## 📜 License
 The code in this repository is released under the MIT License.
