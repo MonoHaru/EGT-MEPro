@@ -47,7 +47,7 @@ Official implementation of:
 | Last Step   | Fault Prognostics (includes Step 1 and Step 2)   | `last_run.ipynb`                                    |
 
 
-**Note**
+📌 **Note**
 
 If you wish to perform fault diagnostics only at the current time point, you need to complete only the **First Step**. To predict time-series data for conducting fault diagnosis at a future time point, proceed with the **Second Step**. For fault prognostics at a future time point, carry out the **Last Step**, which includes both the **First Step** and the **Second Step**.
 
